@@ -1,0 +1,17 @@
+Error detected while processing /home/4zaax/.config/nvim/init.lua:
+E5113: Error while calling lua chunk: /home/4zaax/.config/nvim/lua/4zaax/init.lua:9: attempt to call a nil value
+stack traceback:
+        /home/4zaax/.config/nvim/lua/4zaax/init.lua:9: in main chunk
+        [C]: in function 'require'
+        /home/4zaax/.config/nvim/init.lua:2: in main chunk
+E492: Not an editor command: Lazy
+E492: Not an editor command: lazy
+E492: Not an editor command: nvim
+E492: Not an editor command: lazy.nvim
+E492: Not an editor command: lazyvim
+E492: Not an editor command: lazynvim
+Invalid spec module: `plugins.telescope`
+Expected a `table` of specs, but a `nil` was returned instead
+E5108: Error executing lua [string ":lua"]:1: attempt to index global 'vimopt' (a nil value)
+stack traceback:
+        [string ":lua"]:1: in main chunk
