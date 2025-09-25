@@ -1,9 +1,8 @@
-Failed to run `config` for plenary.nvim
+Failed to run `config` for nvim-lspconfig
 
-vim/keymap.lua:0: invalid key: desk
+/home/4zaax/.config/nvim/lua/plugins/lsp.lua:54: attempt to call field 'setup_handlers' (a nil value)
 
 # stacktrace:
-  - vim/keymap.lua:0 _in_ **set**
-  - lua/plugins/harpoon.lua:9 _in_ **config**
+  - lua/plugins/lsp.lua:54 _in_ **config**
   - lua/config/lazy.lua:26
   - init.lua:2
