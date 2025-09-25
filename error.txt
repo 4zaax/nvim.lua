@@ -1,9 +1,4 @@
-init.4zaax
 Error detected while processing /home/4zaax/.config/nvim/init.lua:
-Invalid spec module: `plugins.telescope`
-Expected a `table` of specs, but a `nil` was returned instead
-hello from 4zaax
-set shout out
 E5113: Error while calling lua chunk: /home/4zaax/.config/nvim/lua/4zaax/init.lua:9: attempt to call a nil value
 stack traceback:
         /home/4zaax/.config/nvim/lua/4zaax/init.lua:9: in main chunk
